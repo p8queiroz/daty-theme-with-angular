@@ -6,8 +6,11 @@ angular.module('starter.controllers', [])
 }).controller('aboutController', function($scope) {
 	$scope.Message = "this is a message set in the aboutController";
 	
-}).controller('configController', function($scope) {
-	$scope.Message = "this is a message set in the configController";
+}).controller('servicesController', function($scope) {
+	$scope.Message = "this is a message set in the servicesController";
+	
+}).controller('servicesController', function($scope) {
+	$scope.Message = "this is a message set in the servicesController";
 	
 }).controller('contactController', function($scope) {
 	$scope.Message = "this is a message set in the contactController";
