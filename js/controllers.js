@@ -9,6 +9,9 @@ angular.module('starter.controllers', [])
 }).controller('servicesController', function($scope) {
 	$scope.Message = "this is a message set in the servicesController";
 	
+}).controller('galleryController', function($scope) {
+	$scope.Message = "this is a message set in the galleryController";
+	
 }).controller('servicesController', function($scope) {
 	$scope.Message = "this is a message set in the servicesController";
 	
@@ -16,6 +19,8 @@ angular.module('starter.controllers', [])
 	$scope.Message = "this is a message set in the contactController";
 	
 });
+  
+  
   
 
 
