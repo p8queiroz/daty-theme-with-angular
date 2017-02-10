@@ -1,7 +1,7 @@
 angular.module('starter.controllers', [])
 
 .controller('mainController', function($scope) {
-	$scope.Message = "this is a message set in the controler mainController";
+	$scope.Message = "this is a message set in the mainController";
 
 }).controller('aboutController', function($scope) {
 	$scope.Message = "this is a message set in the aboutController";
